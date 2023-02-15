@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أنواع الراوترات</title>
+    <!-- Custom Link Css Edit Me  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custome Link Css Bootstrab -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Coustom Link Css FontAwoseom -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Coustom Link Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Tajawal:wght@200;400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Start Code NavTop -->
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <i class="fa-solid fa-house-signal"></i> شركة نت سبيد
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars-staggered"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <img src="img/user.png" class="img-fluid" width="40" alt="">
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">الملف الشخصي</a></li>
+                            <li><a class="dropdown-item" href="#">الإنتقال للموق الرئيسي</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">تسجيل الخروج</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="إبحث من هنا" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">البحث</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- Finsh Code NavTop -->
+
+    <!-- Start Code body right And left -->
+    <div class="rightLeft">
+        <div class="row">
+            <div class="col-lg-2 col-md-6">
+                <div class="right">
+                    <div class="listright">
+                      <ul>
+                        <li><a href="index.html"><i class="fa-solid fa-house-flag"></i> الرئيسية</a></li>
+                        <li><a href="employ.html"><i class="fa-solid fa-user-group"></i> الموظفين</a></li>
+                        <li><a href="users.html"><i class="fa-solid fa-users"></i> المستخدمين</a></li>
+                        <li><a href="category.html"><i class="fa-solid fa-wallet"></i></i>الفئات</a></li>
+                        <li><a href="cards.html"><i class="fa-regular fa-address-card"></i></i>البطاقات</a></li>
+                        <li><a href="gift.html"><i class="fa-solid fa-gift"></i>الهدايا الفورية</a></li>
+                        <li><a href="kindgift.html"><i class="fa-solid fa-gifts"></i>الهدايا العينية</a></li>
+                        <li><a href="degift.html"><i class="fa-solid fa-hands-holding-circle"></i>تسليم الهدايا </a></li>
+                        <li><a href="tickets.html"><i class="fa-solid fa-clipboard-list"></i>التذاكر</a></li>
+                        <li><a href="addtickets.html"><i class="fa-solid fa-file-circle-plus"></i>إضافة تذكرة</a></li>
+                        <li><a href="message.html"><i class="fa-solid fa-comment-sms"></i> إسال رسالة</a></li>
+                        <details class="bg-white p-1 details" >
+                          <summary class="fw-bold"><i class="fa-solid fa-gear fa-spin"></i> الإعدادات</summary>
+                          <ul>
+                            <li><a href="landing.html">إعدادات صفحة الهبوط</a></li>
+                            <li><a href="areas.html">المناطق</a></li>
+                            <li><a href="admin-types.html">أنواع الموظفين</a></li>
+                            <li><a href="router-types.html">أنواع الراوترات</a></li>
+                            <li><a href="card-statuses.html">حالات البطاقة</a></li>
+                            <li><a href="ticket-statuses.html">حالات التذاكر</a></li>
+                            <li><a href="ticket-message.html">حالة رسالة التذاكر</a></li>
+                          </ul>
+                        </details>
+                      </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-10 col-md-6">
+                <div class="left">
+                    <div class="mainTitle d-flex mb-5 align-items-center">
+                        <h2>أنواع الراوترات</h2>
+                        <button class="btn btn-success" onclick="showpoupup()">
+                            <i class="fa-solid fa-plus"></i> إضافة  راوتر
+                        </button>
+                    </div>
+                    <div class="search d-flex">
+                        <form action="" method="get" enctype="multipart/form-data">
+                            <div>
+                                <input class="" type="search" name="" id="" placeholder="إبحث من هنا">
+                                <input class="btn btn-success" type="submit" name="" id="" value="نتيجة البحث">
+                            </div>
+                            <select name="" id="">
+                                <option disabled> اختار طريقة البحث</option>>
+                                <option value="">متوقف</option>
+                            </select>
+                        </form>
+                    </div>
+                    <div class="taple">
+                        <table id="customers">
+                            <tr>
+                                <th>إسم نوع الراوتر</th>
+                                <th>الإجراءات</th>
+                            </tr>
+                            <tr>
+                                <td>D-Link	</td>
+                                <td>
+                                    <div>
+                                        <i class="fa-solid fa-user-pen ms-3" onclick="showUpdate()"></i>
+                                        <i class="fa-solid fa-trash" onclick="showDeleat()"></i>
+                                    </div>
+                                    <div class="mesageDeleat" id="deleat">
+                                        <div class="contentDel align-items-center">
+                                            <h6>هل أنت متأكد من حذف هذا الراوتر</h6>
+                                            <div class="butonClick">
+                                                <a href="" class="btn btn-danger">نعم</a>
+                                                <a class="btn btn-primary" onclick="showDeleat()">إلغاء</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ubdateUser" id="poupUpdate">
+                                        <div class="poupupAddd">
+                                            <form action="" method="get" enctype="multipart/form-data">
+                                                <p class="fs-2 fw-bold me-2 close" onclick="showUpdate()">&times;</p>
+                                                <h3>التعديل على  الراوتر </h3>
+                                                <div>
+                                                    <p class=""><span>*</span>إسم الراوتر الجديد</p>
+                                                    <input type="text" name="" id="" value="">
+                                                </div>
+                                                <div>
+                                                    <button class="btn btn-success">حفظ التعديل </button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="poupupAdd" id="poupUp">
+                        <form action="" method="post" enctype="multipart/form-data">
+                            <p class="fs-2 fw-bold me-2 close" onclick="showpoupup()">&times;</p>
+                            <h3>إضافة راوتر جديد</h3>
+                            <div>
+                                <p class=""><span>*</span>إسم الراوتر</p>
+                                <input type="text" name="" id="" placeholder="أدخل إسم الراوتر" required>
+                            </div>
+                            <button class="btn btn-success">حفظ نوع الراوتر</button>
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Finsh Code body right And left -->
+    <!-- Custome Script Chart Js site Cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Custome Script Chart Js -->
+    <script src="js/mainCharts.js"></script>
+    <!-- Custom Script Bootstrab -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Custom Script FontAwoseom -->
+    <script src="js/all.min.js"></script>
+    <!-- Custome Script Edit Me -->
+    <script src="js/main.js "></script>
+</body>
+
+</html>
